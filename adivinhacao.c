@@ -76,13 +76,13 @@ int main () {
 
          double pontosperdidos = abs(chute - numerosecreto) / 2.0; // casting:colocando o (double)antes do n inteiro para calculo de n flutuantes
          pontos = pontos - pontosperdidos;
-        } 
+       } 
         printf("Fim de jogo...\n");
         if(acertou){
         printf("UHUL! Você acertou!\n");
         printf("Você acertou em %d tentativas!", tentativas);
         printf("Total de pontos: %.1f\n", pontos);
-        } else {
+            } else {
             printf("Você perdeu! Tente novamente!!\n");
         }
 }   
